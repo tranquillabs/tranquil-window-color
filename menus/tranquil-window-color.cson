@@ -1,0 +1,22 @@
+'menu': [
+  {
+    'label': 'Window'
+    'submenu': [
+      {
+        'label': 'Window Color'
+        'submenu': [
+          { 'label': 'Blue',   'command': 'tranquil-window-color:set-blue' }
+          { 'label': 'Teal',   'command': 'tranquil-window-color:set-teal' }
+          { 'label': 'Green',  'command': 'tranquil-window-color:set-green' }
+          { 'label': 'Amber',  'command': 'tranquil-window-color:set-amber' }
+          { 'label': 'Orange', 'command': 'tranquil-window-color:set-orange' }
+          { 'label': 'Rose',   'command': 'tranquil-window-color:set-rose' }
+          { 'label': 'Purple', 'command': 'tranquil-window-color:set-purple' }
+          { 'label': 'Gray',   'command': 'tranquil-window-color:set-gray' }
+          { 'type': 'separator' }
+          { 'label': 'Clear Color', 'command': 'tranquil-window-color:clear-color' }
+        ]
+      }
+    ]
+  }
+]
