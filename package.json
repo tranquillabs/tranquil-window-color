@@ -12,5 +12,12 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "configSchema": {
+    "assignments": {
+      "type": "object",
+      "default": {},
+      "description": "Per-window accent color assignments, keyed by window session id. Managed by the Window Color commands."
+    }
   }
 }
