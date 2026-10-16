@@ -1,7 +1,7 @@
 {
   "name": "tranquil-window-color",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Assign a per-window identity accent color, keyed to each window's isolated session",
   "keywords": [],
   "repository": "https://github.com/tranquillabs/tranquil-window-color",
